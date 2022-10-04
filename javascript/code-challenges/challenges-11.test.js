@@ -145,7 +145,7 @@ let starWarsData = [{
 }];
 
 let findMaleAndFemale = (data) => {
-  return data.filter(personObj => personObj.gender.includes('male'))
+  return data.filter(personObj => personObj.gender.includes('male'|| 'female'))
     .map(person => person.name)
     .join(' and ');
 };
