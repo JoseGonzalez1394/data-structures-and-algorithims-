@@ -99,11 +99,15 @@ let starWarsData = [{
 }];
 
 let biggerThanLuke = (array) => {
-  let Luke = array.find(character => character.name === 'Luke Skywalker');
-
-  return array.filter(personObj => +personObj.mass > +Luke.mass)
-    .map(person => person.name)
-    .join(' – ');
+  let luke = array.find((char) => (char.name = "Luke SkyWalker"));
+  return array
+    .filter((char) => parseInt(char.mass) > parseInt(luke.mass))
+    .reduce((str, currentChar, i, arr) => {
+      i === arr.length - 1
+        ? (str += currentChar.name)
+        : (str += currentChar.name + " - ");
+      return str;
+    }, "");
 };
 
 
@@ -163,7 +167,21 @@ Here is a sample board:
 ------------------------------------------------------------------------------------------------ */
 
 const detectTicTacToeWin = (board) => {
-  // Solution code here...
+  let check = (set) => {
+    return set.every((cell) => cell !== "" && cell === set[0]) ? true : false;
+  };
+  if (check(board[0])) return true;
+  if (check(board[1])) return true;
+  if (check(board[2])) return true;
+
+  if (check([board[0][0], board[1][0], board[2][0]])) return true;
+  if (check([board[0][1], board[1][1], board[2][1]])) return true;
+  if (check([board[0][2], board[1][2], board[2][2]])) return true;
+
+  if (check([board[0][0], board[1][1], board[2][2]])) return true;
+  if (check([board[0][2], board[1][1], board[2][0]])) return true;
+
+  return false;
 };
 
 /* ------------------------------------------------------------------------------------------------
