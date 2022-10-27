@@ -4,7 +4,7 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ## Whiteboard Process
 
-![Figma White Board ](images/WIN_20220627_05_31_26_Pro.jpg)
+![Figma White Board ]()
 
 ## Approach & Efficiency
 
@@ -21,3 +21,6 @@ Space is 1 because one method used
 ## References
 
 https://www.youtube.com/watch?v=77N5qsea8qQ
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
+https://www.javatpoint.com/add-elements-to-array-in-java
+
