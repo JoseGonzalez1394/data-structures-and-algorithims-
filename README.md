@@ -1,23 +1,11 @@
 # Data Structures and Algorithms
 
-See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
+## 401 Data Structures, Code Challenges
 
-## Repository Quick Tour and Usage
+### White Boards
 
-### 301 Code Challenges
+[Coding Challenge 01: Array-Reverse](C:\Users\JGman\CodeFellows\401Java\data-structures-and-algorithims-\java\datastructures\lib\src\main\java\codechallenges\array-reverse\README.md)
 
-Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
+[Coding Challenge 02: Array-Insert-Shift](C:\Users\JGman\CodeFellows\401Java\data-structures-and-algorithims-\java\datastructures\lib\src\main\java\codechallenges\array-insert-shift\README.md)
 
-Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
-
-If you have not already done so, run `npm install` from within this folder to setup your system to be able to run tests using `Jest`
-
-To run your tests
-
-- Change to the `javascript` folder
-- run `npm test` to run all of the tests
-- run `npm test ##` to only run tests for challenge ## (i.e. 01)
-
-### 401 Data Structures, Code Challenges
-
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+[Coding Challenge 03: Array-Binary-Search](C:\Users\JGman\CodeFellows\401Java\data-structures-and-algorithims-\java\datastructures\lib\src\main\java\codechallenges\array-binary-search\README.md)
