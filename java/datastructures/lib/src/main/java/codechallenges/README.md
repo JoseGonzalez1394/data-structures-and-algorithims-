@@ -1,4 +1,4 @@
-# Code Challenge
+# Code Challenge: White Board
 
 ## Table of Contents
 
