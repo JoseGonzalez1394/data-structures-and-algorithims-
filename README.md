@@ -10,4 +10,4 @@
 
 [WhiteBoarding: Array-Binary-Search](C:\Users\JGman\CodeFellows\401Java\data-structures-and-algorithims-\java\datastructures\lib\src\main\java\codechallenges\array-binary-search\README.md)
 
-[Implementation: Linked List Implementation](C:\Users\JGman\CodeFellows\401Java\data-structures-and-algorithims-\java\datastructures\lib\src\main\java\datastructures\linkedlist\README.MD)
+[Implementation: Linked List Implementation](C:\Users\JGman\CodeFellows\401Java\data-structures-and-algorithims-\java\datastructures\lib\src\main\java\codechallenges\linkedlist\README.MD)
