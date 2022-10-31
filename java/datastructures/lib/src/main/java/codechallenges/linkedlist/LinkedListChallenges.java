@@ -1,13 +1,13 @@
 package codechallenges.linkedlist;
 
 import datastructures.linkedlist.LinkedList;
-import java.util.LinkedList;
+
 
 public class LinkedListChallenges {
   public static void main(String[] args) {
     LinkedList LinkedListChallenges = new LinkedList();
 
-    LinkedListChallenges.add(value);
+//    LinkedListChallenges.add(value);
 
   }
 //  class LinkedList:
